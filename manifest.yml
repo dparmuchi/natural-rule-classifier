@@ -11,4 +11,3 @@ applications:
   command: npm start
   path: .
   memory: 128M
-  host: ternium
