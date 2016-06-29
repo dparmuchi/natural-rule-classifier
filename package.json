@@ -1,0 +1,30 @@
+{
+  "name": "natural-rule-classifier",
+  "version": "1.0.0",
+  "description": "NLC API Boilerplate",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cf-deployment-tracker-client": "0.1.1",
+    "express": "^4.14.0",
+    "express-rate-limit": "^2.3.1",
+    "express-secure-only": "^0.2.1",
+    "helmet": "^2.1.0",
+    "q": "^2.0.3",
+    "watson-developer-cloud": "^1.10.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "author": "Franco Di Masi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/francodimasi/natural-rule-classifier/issues"
+  },
+  "engines": {
+    "node": ">=4.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+---
+declared-services:
+  natural-language-classifier:
+    label: natural-language-classifier
+    plan: standard
+
+applications:
+- services:
+  - natural-language-classifier
+  name: natural-rule-classifier
+  command: npm start
+  path: .
+  memory: 128M
+  host: ternium
