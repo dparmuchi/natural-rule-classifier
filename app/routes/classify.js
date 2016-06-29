@@ -27,7 +27,7 @@ router.post('/api', function(req, res) {
 
   return getClass({
     text: query,
-    classifier_id: '2374f9x69-nlc-7910' // from the Beta Toolkit
+    classifier_id: '<classifier_id>' // from the Beta Toolkit
   }).then(function(response){
     var category = response.top_class;
     var description = '';
