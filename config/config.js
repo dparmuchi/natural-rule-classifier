@@ -20,9 +20,9 @@ module.exports = {
   
   // NLC credentials
   natural_language_classifier: {
-    url: 'https://gateway.watsonplatform.net/natural-language-classifier/api',
-    username: '6b6011ba-f613-4a13-9708-fbc18accbead',
-    password: 'm1oVjXD5R53m',
+    url: '<url>',
+    username: '<username>',
+    password: '<password>',
     version: 'v1'
   }
 
